@@ -3,7 +3,7 @@
 * main - Entry point
 *
 * Description: print a-z
-* 
+*
 * Return: 0
 */
 int main(void)
