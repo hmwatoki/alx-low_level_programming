@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: print a-z
- * Return: always return 0
- *
- */
-
+* main - Entry point
+*
+* Description: print a-z
+* 
+* Return: 0
+*/
 int main(void)
 {
-	int i;
-
-	for (i = 97; i <= 122; i++)
-		putchar(i);
-		putchar('\n');
-	return (0);
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+putchar(ch);
+}
+putchar('\n');
+return (0);
 }
