@@ -1,5 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
+/*
+ * File: main.h
+ * Auth: hmwatoki
+ * Description: Header file containing declarations for all functions
+ *       used in the 0x03-debugging
+ */
 
 #include <stdio.h>
 
