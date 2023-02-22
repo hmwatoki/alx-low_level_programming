@@ -1,4 +1,6 @@
-Debugging
+*Debugging*
+
+
 Debugging is a process of diagnosing and resolving errors in computer programs. It involves identifying a bug or issue, determining the cause of the issue, and fixing the issue so the program can properly run. Debugging is a critical part of developing software, as it ensures that programs run correctly, even in difficult and unexpected circumstances.
 
 This README will provide an overview of debugging techniques, common debugging challenges and tips, and helpful resources for further learning.
