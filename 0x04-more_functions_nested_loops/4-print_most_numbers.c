@@ -15,7 +15,7 @@ continue;
 }
 else
 {
-_putchar (i);
+_putchar (i + '0');
 }
 }
 _putchar ('\n');
