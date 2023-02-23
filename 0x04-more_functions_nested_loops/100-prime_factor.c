@@ -1,23 +1,39 @@
 #include <stdio.h>
+
 /**
- * main - prime numbers
- *
+ * prime_factors - function declaration
+ * Description: finds largest prime factor
+ * @test_num: number to test
+ * Return: void
+ */
+
+void prime_factors(long test_num);
+
+/**
+ * main - entry point
+ * Description: calls prime_factors
  * Return: 0
  */
+
 int main(void)
 {
-long num = 612852475143;
-long divisor = 2;
-long larg_prim = 0;
-while (num != 1)
-{
-if (num % divisor == 0)
-{
-num = num / divisor;
-larg_prim = divisor;
+	prime_factors(612852475143);
+	return (0);
 }
-divisor += 1;
-}
-printf("%ld\n", larg_prim);
-return (0);
+void prime_factors(long test_num)
+{
+	long divisor = 2;
+
+	while (divisor != test_num)
+	{
+		if (test_num % divisor == 0)
+		{
+			test_num /= divisor;
+		}
+		else
+		{
+			divisor++;
+		}
+	}
+	printf("%ld\n", test_num);
 }
