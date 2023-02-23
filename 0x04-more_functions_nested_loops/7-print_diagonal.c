@@ -1,25 +1,22 @@
 #include "main.h"
-
 /**
- * print_diagonal - function declaration
- * Description: prints a diagonal line
- * @n: number of parts
- * Return: void
+ * print_diagonal - prints diagonal 
+ *
+ * @n: integer to set diagonal
  */
 void print_diagonal(int n)
 {
-	int slash;
-	int space;
+	int i;
+	int j;
 
 	if (n <= 0)
 	{
 		_putchar('\n');
-	}
-	else
+	} else
 	{
-		for (slash = 0; slash < n; slash++)
+		for (i = 0; i < n; i++)
 		{
-			for (space = 0; space < slash; space++)
+			for (j = 0; j < i; j++)
 			{
 				_putchar(' ');
 			}
