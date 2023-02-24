@@ -20,6 +20,12 @@ int main(void)
 	prime_factors(612852475143);
 	return (0);
 }
+/**
+ * prime_factors - function definition
+ * Description: finds the largest prime factor
+ * @test_num: the number to test
+ * Return: void
+ */
 void prime_factors(long test_num)
 {
 	long divisor = 2;
@@ -37,3 +43,4 @@ void prime_factors(long test_num)
 	}
 	printf("%ld\n", test_num);
 }
+
