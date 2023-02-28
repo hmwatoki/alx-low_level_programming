@@ -7,17 +7,6 @@
  * @n: number of elements to print
  * Return: void
  */
-
-void print_array(int *a, int n);
-
-/**
- * print_array - function definition
- * Description: prints specified array elements
- * @a: the array pointer
- * @n: the number of elements to print
- * Return: void
- */
-
 void print_array(int *a, int n)
 {
 	int index;
