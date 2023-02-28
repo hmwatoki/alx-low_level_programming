@@ -1,23 +1,29 @@
 #include "main.h"
+#include "2-strlen.c"
+
 /**
- * puts_half - Prints half of a string.
- * @str: The string to be printed.
+ * puts_half - function declaration
+ * @str: string pointer
+ * Return: void
  */
-void puts_half(char* str)  
+void puts_half(char *str)
 {
-	int index = 0, len = 0, n;
+	int index;
+	int string_len = _strlen(str);
 
-	while (str[index++])
-		len++;
-
-	if ((len % 2) == 0)
-		n = len / 2;
-
+	if (string_len % 2 != 0)
+	{
+		index = (string_len / 2) + 1;
+	}
 	else
-		n = (len + 1) / 2;
+	{
+		index = (string_len / 2);
+	}
 
-	for (index = n; index < len; index++)
-		_putchar(str[index]);
-
+	while (index < string_len)
+	{
+		_putchar(*(str + index));
+		index++;
+	}
 	_putchar('\n');
 }
