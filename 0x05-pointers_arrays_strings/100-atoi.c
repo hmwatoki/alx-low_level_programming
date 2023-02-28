@@ -1,20 +1,9 @@
 #include "main.h"
-
 /**
  * _atoi - function declaration
  * @s: string pointer
  * Return: integer equivalen of string
  */
-
-int _atoi(char *s);
-
-/**
- * _atoi - function definition
- * Description: convert string to integer
- * @s: the string pointer
- * Return: integer value of string
- */
-
 int _atoi(char *s)
 {
 	int num_sign = 1;
