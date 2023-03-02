@@ -4,7 +4,7 @@
  * File: main.h
  * Auth: hmwatoki
  * Description: Header file containing declarations for all functions
- *       used in 0x05- pointers project
+ *       used in 0x06- more pointers project
  */
 
 #include <stdio.h>
@@ -16,4 +16,5 @@ int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
+char *leet(char *);
 #endif
