@@ -3,16 +3,18 @@
  * _strchr - locates a character in a string
  * @s: string to search
  *  @c: character to search for
- *  Return: a pointer to the occurrence of the character
+ *  Return: a pointer to the occurrence of char
  *  null if the character is not found
 */
 char *_strchr(char *s, char c)
 {
-int i;
-for (i = 0; s[i] != '\0'; i++)
+while (*s != '\0')
 {
-if (s[i] == c)
-return (s + i);
+if (*s == c)
+{
+return (s);
+}
+s++;
 }
 return (NULL);
 }
