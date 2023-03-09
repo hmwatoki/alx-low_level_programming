@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * _pow_recursion - returns x^y
  * @x: number to find power of
