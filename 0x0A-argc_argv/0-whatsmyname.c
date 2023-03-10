@@ -1,7 +1,13 @@
 #include <stdio.h>
-
-int main (int argc, char *args[])
+/**
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @args: array of arguments
+ * Return: 0
+*/
+int main(int argc, char *args[])
 {
-printf ("%s\n", args[0]);
-return 0;
+(void) argc;
+printf("%s\n", args[0]);
+return (0);
 }
