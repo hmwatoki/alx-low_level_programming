@@ -11,15 +11,15 @@ char *cp;
 int i;
 int len;
 len = 0;
-while (str[len])
-{
-len++;
-}
 if (str == NULL)
 {
 return (NULL);
 }
-cp = (char *)malloc(len * sizeof(char) + 1);
+while (str[len])
+{
+len++;
+}
+cp = (char *)malloc(len *sizeof(char) + 1);
 if (cp == NULL)
 {
 return (NULL);
@@ -30,5 +30,5 @@ cp[i] = str[i];
 }
 cp[i] = '\0';
 return (cp);
-free (cp);
+free(cp);
 }
