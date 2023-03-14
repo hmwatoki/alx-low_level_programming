@@ -21,6 +21,7 @@ dim[i] = (int *) malloc(width * sizeof(int));
 for (j = 0; j < width; j++)
 {
 dim[i][j] = 0;
+free(dim);
 }
 }
 if (dim == NULL)
