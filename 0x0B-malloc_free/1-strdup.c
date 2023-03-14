@@ -29,4 +29,5 @@ for (i = 0; i < len; i++)
 cp[i] = str[i];
 }
 return (cp);
+free (cp);
 }
