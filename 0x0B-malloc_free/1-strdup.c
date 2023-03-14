@@ -24,7 +24,6 @@ if (cp == NULL)
 {
 return (NULL);
 }
-else
 for (i = 0; i < len; i++)
 {
 cp[i] = str[i];
