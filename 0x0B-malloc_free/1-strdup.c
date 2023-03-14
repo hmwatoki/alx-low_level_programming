@@ -30,6 +30,6 @@ for (i = 0; i < len; i++)
 cp[i] = str[i];
 }
 cp[i] = '\0';
-frea(cp);
+free(cp);
 return (cp);
 }
