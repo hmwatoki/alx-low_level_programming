@@ -11,7 +11,7 @@ char *cp;
 int i;
 int len;
 len = 0;
-while (str[len] != '\0')
+while (str[len])
 {
 len++;
 }
@@ -24,10 +24,11 @@ if (cp == NULL)
 {
 return (NULL);
 }
+else 
 for (i = 0; i < len; i++)
 {
 cp[i] = str[i];
 }
 return (cp);
-free (cp);
+free(cp);
 }
