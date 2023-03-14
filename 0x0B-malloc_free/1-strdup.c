@@ -19,16 +19,17 @@ if (str == NULL)
 {
 return (NULL);
 }
-cp = (char *)malloc(len *sizeof(char));
+cp = (char *)malloc((len + 1) * sizeof(char));
 if (cp == NULL)
 {
 return (NULL);
 }
-else 
+else
 for (i = 0; i < len; i++)
 {
 cp[i] = str[i];
 }
+cp[i] = '\0';
+frea(cp);
 return (cp);
-free(cp);
 }
