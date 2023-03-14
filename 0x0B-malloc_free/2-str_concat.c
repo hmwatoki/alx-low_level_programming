@@ -13,8 +13,6 @@ int len_s1;
 int len_s2;
 char *str_concat;
 int i;
-if (!s1 || !s2)
-return (NULL);
 if (s1 != NULL)
 {
 len_s1 = 0;
