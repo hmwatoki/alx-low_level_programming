@@ -28,4 +28,5 @@ if (dim == NULL)
 return (NULL);
 }
 return (dim);
+free(dim);
 }
