@@ -14,19 +14,26 @@ if (width == 0 || height == 0)
 {
 return (NULL);
 }
-dim = (int **) malloc(height * sizeof(int *));
-for (i = 0; i < height; i++)
-{
-dim[i] = (int *) malloc(width * sizeof(int));
-for (j = 0; j < width; j++)
-{
-dim[i][j] = 0;
-}
-}
+dim = malloc(height * sizeof(int *));
 if (dim == NULL)
 {
 return (NULL);
+}
+for (i = 0; i < height; i++)
+{
+dim[i] = (int *) malloc(width * sizeof(int));
+if (dim[i] == NULL)
+{
+for (j = 0; j < i; j++)
+{
+free(dim[j]);
 free(dim);
+return (NULL);
+}
+for (j = 0; j < i; j++)
+{
+free(dim[j]);
+}
 }
 return (dim);
 }
