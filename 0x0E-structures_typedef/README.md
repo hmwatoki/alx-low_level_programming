@@ -1,0 +1,1 @@
+Structures and typedef are important concepts in C programming, and it is essential to understand how they work. A structure is a user-defined data type that groups related data items of different data types. Typedef, on the other hand, is used to create an alias for an existing data type.
