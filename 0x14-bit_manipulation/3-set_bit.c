@@ -5,7 +5,7 @@
  * @n: unsigned long int
  * @index: unsigned int
  * Return: 1 on success 0 on failure
- * 
+ *
 */
 int set_bit(unsigned long int *n, unsigned int index)
 {
