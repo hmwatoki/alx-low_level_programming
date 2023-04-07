@@ -14,12 +14,12 @@ unsigned int conv;
 conv = 0;
 if (b == NULL)
 return (0);
-for (i =0; b[i] != '\0'; i++)
+for (i = 0; b[i] != '\0'; i++)
 {
-if (b[i] != '0'&& b[i] != '1')
+if (b[i] != '0' && b[i] != '1')
 return (0);
 conv <<= 1;
-if(b[i] == '1')
+if (b[i] == '1')
 {
 conv += 1;
 }
