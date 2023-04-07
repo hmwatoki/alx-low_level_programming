@@ -14,5 +14,3 @@ This code shifts the bits of x to the right by three positions, resulting in the
 
 It's important to note that bitwise operators can be tricky to use correctly, and can lead to unexpected results if not used carefully. It's also worth noting that some compilers may optimize code that uses bitwise operators differently, so it's important to test your code thoroughly to ensure it works as expected.
 
-If you have any questions or need further clarification on how to use bitwise operators in C, please let me know.
-
